@@ -78,7 +78,7 @@ This repo contains implementation of a weather app that uses Open Weather API an
    
 ![image](https://user-images.githubusercontent.com/120722376/230355851-4deadc3d-43f1-4dde-88b7-50a187741fb3.png)
 
-7. To run our application.
+7. To run our application, but we can't our application because we are in EC2 instance and we have to configure our security group which is attached to EC2 instance to allow port 8000.
 
    > python3 manage.py runserver
    
