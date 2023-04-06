@@ -43,11 +43,12 @@ This repo contains implementation of a weather app that uses Open Weather API an
 ## Hosting on AWS
 1. Create an EC2 instance with AMI ubuntu and rest as default.
 2. Instead of using SSH we can use EC2 Instance Connect.
+
 ![image](https://user-images.githubusercontent.com/120722376/230352201-98118a8c-75a5-4cde-a2fe-6af75727065d.png)
+
 ![image](https://user-images.githubusercontent.com/120722376/230352338-d9852161-f683-4f5c-b7d1-e85fd735c977.png)
 3. We have to update the system
-  <div>
-   sudo apt-get update
-  <div/>
+   > sudo apt-get update
+  
 ![image](https://user-images.githubusercontent.com/120722376/230352979-bf6d5b35-bbf8-4d68-8375-19dae725233f.png)
 
