@@ -10,5 +10,33 @@ This repo contains implementation of a weather app that uses Open Weather API an
 ## Setup
 1. Create a new directory and activate a virtualenv.
 2. Install Django framework in that directory.
-3. Create your project:
+3. Create our project:
    > python -m django startproject weatherproject
+4. Create a new app:
+   > python -m django startapp weatherapp
+5. Add our app to the INSTALLED_APPS tuple.
+
+## Add Basic URLs and Views
+1. Map our Project’s urls.py file to the new app.
+2. In our weatherapp directory, create a urls.py file to define our weatherapp’s URLs.
+3. Add views, associated with the URLs, in your weatherapp’s views.py; make sure they return a HttpResponse object. Depending on the situation, we may also need to query the model (database) to get the required data back requested by the end user.
+## Templates and Static Files
+1. Create a templates directory within our project root.
+2. Update settings.py to include the paths to our templates.
+3. Add a template (HTML file) to the templates directory.
+4. Update the views.py file as necessary.
+## Models and Databases
+1. Update the database engine to settings.py (if necessary, as it defaults to SQLite).
+2. Create and apply a new migration and a super user to access admin page.
+3. Add an admin.py file in each App that we want access to in the Admin.
+4. Create our models for each weatherapp and apply a new migration. (Do this whenever we make any change to a model).
+## Forms
+1. Create a forms.py file at the weatherpp to define form-related classes; define our ModelForm classes here.
+2. Add or update a view for handling the form logic - e.g., displaying the form, saving the form data, alerting the user about validation errors, etc.
+3. Add or update a template to display the form.
+4. Add a urlpattern in the weatherapp’s urls.py file for the new view.
+## User Registration and User Login
+1. Create a UserForm add a view for creating a new user.
+2. Add a template to display the form and a urlpattern for the new view.
+3. Add a view for handling user credentials.
+4. Create a template to display a login form and add a urlpattern for the new view.
