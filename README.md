@@ -95,7 +95,7 @@ This repo contains implementation of a weather app that uses Open Weather API an
 
 ![image](https://user-images.githubusercontent.com/120722376/230358620-6c0b9fb9-87ca-4d3c-a760-ca69af674bb4.png)
 
-10. We have to allocate our public ip to ALLOWEd_HOSTS in settings.py
+10. We have to allocate our public ip to ALLOWED_HOSTS in settings.py
 
 11. If we enter the public ip with port num we can access our weatherapp where can add our cities weather and delete it.
 
