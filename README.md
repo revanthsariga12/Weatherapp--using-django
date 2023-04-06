@@ -85,3 +85,20 @@ This repo contains implementation of a weather app that uses Open Weather API an
 ![image](https://user-images.githubusercontent.com/120722376/230356339-cc0170e2-d295-46a7-bcd3-396ba5dea005.png)
 
 
+8. We can use this command to run our server.
+
+   > python3 manage.py runserver 0.0.0.0:8000
+
+![image](https://user-images.githubusercontent.com/120722376/230357824-6f918729-c8e8-498f-9694-b07817e46122.png)
+
+9. We have to add inbound rule in our security group to allow port 8000 So, we add simply a inbound route to allow all traffic.
+
+![image](https://user-images.githubusercontent.com/120722376/230358620-6c0b9fb9-87ca-4d3c-a760-ca69af674bb4.png)
+
+10. We have to allocate our public ip to ALLOWEd_HOSTS in settings.py
+
+11. If we enter the public ip with port num we can access our weatherapp where can add our cities weather and delete it.
+
+![image](https://user-images.githubusercontent.com/120722376/230361343-7a075dc3-166e-455f-b80b-9ddf339f764f.png)
+
+
