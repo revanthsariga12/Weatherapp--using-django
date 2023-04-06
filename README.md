@@ -11,9 +11,13 @@ This repo contains implementation of a weather app that uses Open Weather API an
 1. Create a new directory and activate a virtualenv.
 2. Install Django framework in that directory.
 3. Create our project:
+
    > python -m django startproject weatherproject
+
 4. Create a new app:
+
    > python -m django startapp weatherapp
+
 5. Add our app to the INSTALLED_APPS tuple.
 
 ## Add Basic URLs and Views
@@ -54,4 +58,30 @@ This repo contains implementation of a weather app that uses Open Weather API an
   
 ![image](https://user-images.githubusercontent.com/120722376/230352979-bf6d5b35-bbf8-4d68-8375-19dae725233f.png)
 
-4. 
+4. To get our code from reposiory we have to clone it.
+
+   > git clone https://github.com/revanthsariga12/Weatherapp--using-django.git
+
+![image](https://user-images.githubusercontent.com/120722376/230353960-9edaf87a-cc61-4bfd-a8f1-ebac147bd169.png)
+
+5. Switch to our project folder.
+
+![image](https://user-images.githubusercontent.com/120722376/230355091-3e12e025-3394-4e30-80ac-b6896d0efd22.png)
+
+6. We have to install python, pip and django.
+  
+   > sudo apt install python3-pip -y
+ 
+![image](https://user-images.githubusercontent.com/120722376/230355472-0230ec4d-c3d7-4300-9453-215b22704495.png)
+
+   > pip install django
+   
+![image](https://user-images.githubusercontent.com/120722376/230355851-4deadc3d-43f1-4dde-88b7-50a187741fb3.png)
+
+7. To run our application.
+
+   > python3 manage.py runserver
+   
+![image](https://user-images.githubusercontent.com/120722376/230356339-cc0170e2-d295-46a7-bcd3-396ba5dea005.png)
+
+
